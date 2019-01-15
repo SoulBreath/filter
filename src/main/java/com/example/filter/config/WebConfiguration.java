@@ -21,7 +21,7 @@ public class WebConfiguration {
     }
 
     @Bean
-    public FilterRegistrationBean<MyFilterTwo> RegistrationTwo(){
+    public FilterRegistrationBean<MyFilterTwo> registrationTwo(){
 
         FilterRegistrationBean<MyFilterTwo> registrationBean = new FilterRegistrationBean<>();
         registrationBean.setFilter(new MyFilterTwo());
